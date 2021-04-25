@@ -1,0 +1,81 @@
+body,{
+	margin: 0;
+	padding: 0;
+}
+.start {
+	padding-left: 20px;
+	padding-right: 30px;
+	float:left;
+	width: 100.18px;
+	height: 30.57px;
+}
+.pic{
+	width: 928px;
+	height: 594px;
+	margin: 10px 0 50px 20px; 
+}
+.bord{
+	padding: 5px;
+}
+.tach{
+	width: 102.87px;
+	height: 145.5px;
+	float:left;
+	padding:0 50px 0 20PX;
+}
+.first{
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	margin-left: 20px;
+}
+.first>h1{
+	font-size: 22px;
+	color: #3D58A6;
+	padding: 5px 10px;
+}
+.first>p{
+	font-size: 20px;
+	padding:0 10px;
+	text-align: justify;
+}
+.up{
+	margin-left: 20px;
+}
+.second{
+	width: 570px;
+	height: 225px;
+	background-color: #F2F2F2;
+	margin: 0 0 0 100px;
+}
+.second>p{
+	font-size: 20px;
+	padding:0 10px;
+	text-align: justify;
+}
+.second>h1{
+	font-size: 22px;
+	color: #3D58A6;
+	padding: 5px 10px;
+}
+.screen{
+	width: 102.87px;
+	height: 145.5px;
+	float:left;
+	padding:0 50px 0 20PX;
+}
+.first, .second{
+	display: inline-block;
+}
+li {
+	margin-left: 10px;
+	display: inline-block;
+	list-style: none;
+	font-size: 22px;
+}
+.red{
+	color: red;
+}
+li a{
+	text-decoration: none;
+}
