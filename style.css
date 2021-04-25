@@ -1,6 +1,17 @@
-body,{
+@font-face {
+ font-family: "BPG Nino Mtavruli", sans-serif;
+ src: url("/fonts/bpg-nino-mtavruli-webfont.eot") format("oet"),
+		 url("/fonts/bpg-nino-mtavruli-webfont.svg") format("svg"),
+		 url("/fonts/bpg-nino-mtavruli-webfont.ttf") format("ttf"),
+		 url("/fonts/bpg-nino-mtavruli-webfont.woff") format("woff"),
+		 url("/fonts/bpg-nino-mtavruli-webfont.woff2") format("woff2");
+ font-display: swap;   
+}
+
+body{
 	margin: 0;
 	padding: 0;
+	font-family: "BPG Nino Mtavruli", sans-serif;
 }
 .start {
 	padding-left: 20px;
@@ -12,7 +23,7 @@ body,{
 .pic{
 	width: 928px;
 	height: 594px;
-	margin: 10px 0 50px 20px; 
+	margin: 10px 0 25px 20px; 
 }
 .bord{
 	padding: 5px;
@@ -28,16 +39,21 @@ body,{
 	height: 225px;
 	background-color: #F2F2F2;
 	margin-left: 20px;
+	padding: 20px 0;
 }
 .first>h1{
 	font-size: 22px;
 	color: #3D58A6;
 	padding: 5px 10px;
+	margin: 0;
 }
 .first>p{
 	font-size: 20px;
 	padding:0 10px;
 	text-align: justify;
+}
+.first> img{
+	margin-top: 25px;
 }
 .up{
 	margin-left: 20px;
@@ -47,6 +63,7 @@ body,{
 	height: 225px;
 	background-color: #F2F2F2;
 	margin: 0 0 0 100px;
+	padding: 20px 0;
 }
 .second>p{
 	font-size: 20px;
@@ -57,6 +74,10 @@ body,{
 	font-size: 22px;
 	color: #3D58A6;
 	padding: 5px 10px;
+	margin:0;
+}
+.second> img{
+	margin-top: 25px;
 }
 .screen{
 	width: 102.87px;
@@ -65,7 +86,10 @@ body,{
 	padding:0 50px 0 20PX;
 }
 .first, .second{
-	display: inline-block;
+	display: inline-table;
+}
+ul{
+	padding-top: 8px;
 }
 li {
 	margin-left: 10px;
